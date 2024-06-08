@@ -29,3 +29,4 @@ function clickDislike2(){
 }
 }
 submit.addEventListener("click",submitComment)
+    
