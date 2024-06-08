@@ -19,5 +19,13 @@ const commentbox = document.getElementById("commentbox")
 function submitComment(){
     commentbox.textContent += comment.value.toString() + "\n"
     comment.value=""
+    function clickDislike1(){
+   let totalDislike1 = parseInt(countDislike1.value) + 1
+   countDislike1.textContent = totalDislike1.toString() 
+}
+function clickDislike2(){
+   let totalDislike2 = parseInt(countDislike2.value) + 1
+   countDislike2.textContent = totalDislike2.toString() 
+}
 }
 submit.addEventListener("click",submitComment)
