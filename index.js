@@ -19,6 +19,7 @@ const commentbox = document.getElementById("commentbox")
 function submitComment(){
     commentbox.textContent += comment.value.toString() + "\n"
     comment.value=""
+}
     function clickDislike1(){
    let totalDislike1 = parseInt(countDislike1.value) + 1
    countDislike1.textContent = totalDislike1.toString() 
